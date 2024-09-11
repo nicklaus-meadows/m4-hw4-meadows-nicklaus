@@ -1,5 +1,5 @@
 html {
-    background-color: darkslategray;
+    background-color: teal;
     max-width: 900px;
     margin: auto;
    
@@ -15,16 +15,23 @@ article > p{
 
 }
 
-article > p span {
+/*article > p span {
     background-color: darkcyan;
     padding: 10px;
     border-radius: 25px 0 25px 0;
     
-}
+} */
 
 
 article > a {
-    background-color: white;
+    background-color: rgb(240, 127, 34);
+    padding: 15px;
+    margin: 50px;
+    border-radius: 5px 35px 5px 35px;
+    font-size: 16px;
+    color: whitesmoke;
+    border: thin solid black;
+
     
 }
 
@@ -49,7 +56,7 @@ img {
 }
 
 li a {
-    color:aqua
+    color:aqua;
 }
 
 li a:hover {
@@ -74,12 +81,34 @@ footer {
 
 }
 
+footer h3 {
+    color: whitesmoke;
+}
+
 h1, h2, h3 {
     color: orangered;
 }
 
 a {
-    color: peru;
+    color: rgb(247, 125, 3);
 }
 
+a:hover {
+    color: blue;
+}
 
+p {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    border-radius: 5px;
+    border: thin solid black;
+
+}
+
+h4 {
+    color: whitesmoke;
+}
+
+li {
+    margin: 5px 0 10px 10px
+}
