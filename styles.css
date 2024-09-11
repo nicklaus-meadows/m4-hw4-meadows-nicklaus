@@ -1,0 +1,85 @@
+html {
+    background-color: darkslategray;
+    max-width: 900px;
+    margin: auto;
+   
+}
+
+article > p{
+   
+    color: seashell;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+article > p span {
+    background-color: darkcyan;
+    padding: 10px;
+    border-radius: 25px 0 25px 0;
+    
+}
+
+
+article > a {
+    background-color: white;
+    
+}
+
+
+nav a {
+    color: aliceblue;
+    font-size: 22px;
+    display: block;
+    margin-bottom: 25px;
+    
+}
+
+nav a:hover {
+    color: aquamarine;
+}
+
+img {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li a {
+    color:aqua
+}
+
+li a:hover {
+ color: blue;
+}
+
+ol {
+    color: aqua
+}
+
+footer a {
+    color: peru;
+    padding: 25px;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+footer {
+    text-align: center;
+
+}
+
+h1, h2, h3 {
+    color: orangered;
+}
+
+a {
+    color: peru;
+}
+
+
