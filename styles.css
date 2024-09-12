@@ -84,10 +84,18 @@ footer {
 
 footer h3 {
     color: whitesmoke;
+    background-color: teal;
 }
 
-h1, h2, h3 {
+
+
+h1, h2, h3:not(#feet) {
     color: orangered;
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+    border-radius: 5px;
+    border: thin solid black;
+    margin-top: 30px;
 }
 
 a {
